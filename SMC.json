@@ -59,31 +59,9 @@
   ],
   "Scrollback Lines" : 0,
   "HotKey Window Reopens On Activation" : false,
+  "Draw Powerline Glyphs" : true,
   "Status Bar Layout" : {
     "components" : [
-      {
-        "class" : "iTermStatusBarHostnameComponent",
-        "configuration" : {
-          "knobs" : {
-            "path" : "hostname",
-            "base: priority" : 5,
-            "base: compression resistance" : 1,
-            "shared text color" : {
-              "Red Component" : 0.90000000000000002,
-              "Color Space" : "sRGB",
-              "Blue Component" : 0.63,
-              "Alpha Component" : 1,
-              "Green Component" : 0.63
-            }
-          },
-          "layout advanced configuration dictionary value" : {
-            "remove empty components" : false,
-            "font" : ".AppleSystemUIFont 12",
-            "algorithm" : 0,
-            "auto-rainbow style" : 1
-          }
-        }
-      },
       {
         "class" : "iTermStatusBarGitComponent",
         "configuration" : {
@@ -92,11 +70,11 @@
             "iTermStatusBarGitComponentPollingIntervalKey" : 2,
             "base: priority" : 5,
             "shared text color" : {
-              "Red Component" : 0.80145,
+              "Red Component" : 0.90000000000000002,
               "Color Space" : "sRGB",
               "Blue Component" : 0.63,
               "Alpha Component" : 1,
-              "Green Component" : 0.90000000000000002
+              "Green Component" : 0.63
             },
             "base: compression resistance" : 1,
             "minwidth" : 0
@@ -116,9 +94,9 @@
             "base: priority" : 5,
             "base: compression resistance" : 1,
             "shared text color" : {
-              "Red Component" : 0.63,
+              "Red Component" : 0.67859999999999998,
               "Color Space" : "sRGB",
-              "Blue Component" : 0.82710000000000006,
+              "Blue Component" : 0.63,
               "Alpha Component" : 1,
               "Green Component" : 0.90000000000000002
             }
@@ -138,11 +116,11 @@
             "base: priority" : 5,
             "base: compression resistance" : 1,
             "shared text color" : {
-              "Red Component" : 0.65564999999999996,
+              "Red Component" : 0.63,
               "Color Space" : "sRGB",
               "Blue Component" : 0.90000000000000002,
               "Alpha Component" : 1,
-              "Green Component" : 0.63
+              "Green Component" : 0.72719999999999996
             }
           },
           "layout advanced configuration dictionary value" : {
@@ -204,8 +182,6 @@
   },
   "Open Password Manager Automatically" : false,
   "Icon" : 0,
-  "Use Non-ASCII Font" : false,
-  "Shortcut" : "S",
   "Link Color" : {
     "Red Component" : 0.023000000044703484,
     "Color Space" : "Calibrated",
@@ -213,6 +189,8 @@
     "Alpha Component" : 1,
     "Green Component" : 0.27000001072883606
   },
+  "Shortcut" : "S",
+  "Use Non-ASCII Font" : false,
   "Background Image Location" : "",
   "Bold Color" : {
     "Red Component" : 0.67058825492858887,
